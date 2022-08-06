@@ -1,0 +1,13 @@
+version: '3'
+services:
+  linux:
+    image: centos:8
+    ports:
+      - "80:80"
+    privileged: true
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+    cap_add:
+      - SYS_ADMIN
+    command: /sbin/init
+    tty: true
