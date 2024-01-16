@@ -1,4 +1,4 @@
-# heartbeats 様提供課題(LAMP 構築)
+# LAMP 構築
 
 ## 今回の構築を行ったうえでの総まとめは別途 Matome.md に記載。
 
